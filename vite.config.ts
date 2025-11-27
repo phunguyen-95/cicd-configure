@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/cicd-configure/',
   css:  {
     preprocessorOptions : {
       scss: {
